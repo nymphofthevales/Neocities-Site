@@ -1,0 +1,40 @@
+
+body {
+    background-image: url("../media/star_tiling.png");
+    background-color: var(--darkblue);
+}
+
+#star-lady {
+    margin: 10px auto;
+    width: 50vw;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 0 auto;
+    font-weight: normal;
+}
+
+button {
+    border: 5px outset white;
+    color: var(--darkblue);
+    background-color: #bbbbbb;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 3vh;
+}
+
+button:hover {
+    background-color: #cccccc;
+}
+
+button:active {
+    background-color: #ffffff;
+    border: 5px inset white;
+}

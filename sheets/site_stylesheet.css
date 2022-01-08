@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: crosshair;
+    font-family: "Alegreya-Italic";
+    color: white;
+}
+
+@font-face {
+    font-family: "Alegreya";
+    src: url("../media/fonts/Alegreya-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Alegreya-Italic";
+    src: url("../media/fonts/Alegreya-Italic.ttf");
+}
+
+body {
+    background-repeat: repeat;
+    background-size: 30%;
+    padding: 100px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+:root {
+    --darkblue: rgb(10,9,38)
+}
